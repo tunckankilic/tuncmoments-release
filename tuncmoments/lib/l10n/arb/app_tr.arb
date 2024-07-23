@@ -1,0 +1,455 @@
+{
+  "@@locale": "tr",
+  "feedAppBarTitle": "Besleme",
+  "@feedAppBarTitle": {
+    "description": "Besleme sayfası için başlık metni"
+  },
+  "homeNavBarItemLabel": "Ana Sayfa",
+  "@homeNavBarItemLabel": {
+    "description": "Alt navigasyon çubuğundaki ana sayfa simgesi için ipucu"
+  },
+  "searchNavBarItemLabel": "Ara",
+  "@searchNavBarItemLabel": {
+    "description": "Alt navigasyon çubuğundaki arama simgesi için ipucu"
+  },
+  "createMediaNavBarItemLabel": "Medya Oluştur",
+  "@createMediaNavBarItemLabel": {
+    "description": "Alt navigasyon çubuğundaki artı simgesi için ipucu"
+  },
+  "reelsNavBarItemLabel": "Reels",
+  "@reelsNavBarItemLabel": {
+    "description": "Alt navigasyon çubuğundaki dosya simgesi için ipucu"
+  },
+  "profileNavBarItemLabel": "Profil",
+  "@profileNavBarItemLabel": {
+    "description": "Alt navigasyon çubuğundaki profil simgesi için ipucu"
+  },
+  "originalAudioText": "Orijinal Ses",
+  "likesText": "Beğeniler",
+  "discardEditsText": "Değişiklikleri İptal Et",
+  "discardText": "İptal Et",
+  "doneText": "Tamam",
+  "tapToTypeText": "Yazmak için dokunun...",
+  "uploadText": "Yükle",
+  "loseAllEditsText": "Şimdi geri dönerseniz yaptığınız tüm değişiklikler kaybolacak.",
+  "successfullySavedText": "Başarıyla Kaydedildi",
+  "saveDraft": "Taslağı Kaydet",
+  "draftEmpty": "Taslak Boş",
+  "errorText": "Hata",
+  "noPostsText": "Henüz Gönderi Yok",
+  "noPostFoundText": "Gönderi Bulunamadı!",
+  "noChatsText": "Henüz Sohbet Yok!",
+  "startChatText": "Sohbet Başlat",
+  "addCommentText": "Yorum Ekle",
+  "deleteCommentText": "Yorumu Sil",
+  "commentDeleteConfirmationText": "Bu yorumu silmek istediğinize emin misiniz?",
+  "deleteMessageText": "Mesajı Sil",
+  "messageDeleteConfirmationText": "Bu mesajı silmek istediğinize emin misiniz?",
+  "deleteChatText": "Sohbeti Sil",
+  "chatDeleteConfirmationText": "Bu sohbeti silmek istediğinize emin misiniz?",
+  "deleteReelText": "Reels Videoyu Sil",
+  "reelDeleteConfirmationText": "Bu Reels videosunu silmek istediğinize emin misiniz?",
+  "deleteStoryText": "Hikayeyi Sil",
+  "storyDeleteConfirmationText": "Bu hikayeyi silmek istediğinize emin misiniz?",
+  "commentText": "Yorum",
+  "commentsText": "Yorumlar",
+  "noCommentsText": "Yorum Yok",
+  "seeAllComments": "Tüm yorumları gör ({count})",
+  "@seeAllComments": {
+    "description": "Bu gönderinin altındaki yorum sayısını gösteren metin",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "likesCountText": "Beğeni: {count}",
+  "@likesCountText": {
+    "description": "Bu gönderinin beğeni sayısını gösteren metin",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "likedByText": "{userName} ve diğer {count, plural, =1{} other{ve {count} diğer}} tarafından beğenildi",
+  "@likedByText": {
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "emil.zulufov"
+      },
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "likeText": "Beğen",
+  "unlikeText": "Beğenmekten Vazgeç",
+  "likesCountTextShort": "{count}",
+  "@likesCountTextShort": {
+    "description": "Bu gönderinin beğeni sayısını kısa formatta gösteren metin",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "yourStoryLabel": "Hikayen",
+  "@yourStoryLabel": {
+    "description": "Ana sayfada kendi hikayenizin altında gösterilen metin"
+  },
+  "postsText": "Gönderiler",
+  "profilePostsAppBarTitle": "Gönderiler",
+  "@profilePostsAppBarTitle": {
+    "description": "Kullanıcının tüm gönderilerinin bulunduğu sayfa için başlık metni"
+  },
+  "followUser": "Takip Et",
+  "followingUser": "Takiptesin",
+  "followersText": "Takipçiler",
+  "followingsText": "Takip Edilenler",
+  "followersCountText": "Takipçi: {count}",
+  "@followersCountText": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "followingsCountText": "Takip Edilen: {count}",
+  "@followingsCountText": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "postsCount": "{count, plural, =1{Gönderi} few{Gönderi} other{Gönderi}}",
+  "@postsCount": {
+    "description": "Kullanıcının gönderi sayısını gösteren metin",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "followersCount": "{count, plural, =1{Takipçi} few{Takipçi} other{Takipçi}}",
+  "@followersCount": {
+    "description": "Kullanıcının takipçi sayısını gösteren metin",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "optionsText": "Seçenekler",
+  "viewProfileText": "Profili Görüntüle",
+  "editProfileText": "Profili Düzenle",
+  "editingText": "Düzenleniyor",
+  "editPostText": "Gönderiyi Düzenle",
+  "shareProfileText": "Profili Paylaş",
+  "sharePostText": "Paylaş",
+  "sharePostCaptionHintText": "Mesaj ekle...",
+  "sendText": "Gönder",
+  "sendSeparatelyText": "Ayrı gönder",
+  "addStoryText": "Ekle",
+  "followingsCount": "{count, plural, =1{Takip} few{Takip} other{Takip}}",
+  "@followingsCount": {
+    "description": "Kullanıcının takip ettiği kişi sayısını gösteren metin",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "sponsoredPostText": "Sponsorlu",
+  "@sponsoredPostText": {
+    "description": "Bu gönderinin yazar tarafından sponsorlu olarak tanıtıldığını gösteren metin"
+  },
+  "visitSponsoredInstagramProfile": "Instagram Profilini Ziyaret Et",
+  "visitSponsoredPostAuthorProfileText": "Instagram Profilini Aç",
+  "@visitSponsoredPostAuthorProfileText": {
+    "description": "Kullanıcıyı yazarın profiline yönlendiren sponsorlu gönderideki metin"
+  },
+  "learnMoreAboutUserPromoText": "Daha fazla bilgi edin",
+  "@learnMoreAboutUserPromoText": {
+    "description": "Yazarın sayfasında görünen promosyon banner'ındaki metin"
+  },
+  "visitUserPromoWebsiteText": "Web sitesini ziyaret et",
+  "@visitUserPromoWebsiteText": {
+    "description": "Yazarın sayfasındaki promosyon banner'ında görünen metin"
+  },
+  "cancelFollowingText": "Takibi bırak",
+  "@cancelFollowingText": {
+    "description": "Takibi bırakma işlemi için metin"
+  },
+  "haveSeenAllRecentPosts": "Tüm yeni gönderileri gördünüz",
+  "@haveSeenAllRecentPosts": {
+    "description": "Kullanıcı tüm yeni gönderileri gördüğünde bölme bloğunda gösterilen başlık metni"
+  },
+  "haveSeenAllRecentPostsInPast3Days": "Son 3 gündeki tüm yeni gönderileri gördünüz.",
+  "@haveSeenAllRecentPostsInPast3Days": {
+    "description": "Kullanıcı son 3 gündeki tüm yeni gönderileri gördüğünde bölme bloğunda gösterilen metin"
+  },
+  "suggestedForYouText": "Sizin için önerilenler",
+  "@suggestedForYouText": {
+    "description": "Önerilen bölüm bloğunda gösterilen metin"
+  },
+  "andText": "ve",
+  "othersText": "{count, plural, =0{} other{diğer {count}}}",
+  "@othersText": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "newPostText": "Yeni Gönderi",
+  "newAvatarImageText": "Yeni Avatar Fotoğrafı",
+  "writeCaptionText": "Açıklama yaz...",
+  "logOutText": "Çıkış Yap",
+  "logOutConfirmationText": "Hesabınızdan çıkış yapmak istediğinizden emin misiniz?",
+  "notShowAgainText": "Tekrar gösterme",
+  "blockPostAuthorText": "Gönderi yazarını engelle",
+  "blockAuthorText": "Yazarı engelle",
+  "blockAuthorConfirmationText": "Bu yazarı engellemek istediğinizden emin misiniz?",
+  "blockText": "Engelle",
+  "refreshText": "Yenile",
+  "noReelsFoundText": "Henüz Reels videosu yok",
+  "publishText": "Yayınla",
+  "searchText": "Ara",
+  "somethingWentWrongText": "Bir şeyler ters gitti!",
+  "failedToCreateStoryText": "Hikaye oluşturulamadı",
+  "successfullyCreatedStoryText": "Hikaye başarıyla oluşturuldu!",
+  "createText": "Oluştur",
+  "reelText": "Reels Videosu",
+  "postText": "Gönderi",
+  "storyText": "Hikaye",
+  "removeText": "Kaldır",
+  "removeFollowerText": "Takipçiyi Kaldır",
+  "removeFollowerConfirmationText": "Bu takipçiyi kaldırmak istediğinizden emin misiniz?",
+  "deletePostText": "Gönderiyi Sil",
+  "deletePostConfirmationText": "Bu gönderiyi silmek istediğinizden emin misiniz?",
+  "cancelText": "İptal",
+  "captionText": "Açıklama",
+  "noCameraFoundText": "Kamera bulunamadı!",
+  "videoText": "VİDEO",
+  "photoText": "FOTOĞRAF",
+  "clearImagesText": "Seçilen görüntüleri temizle",
+  "galleryText": "GALERİ",
+  "deletingText": "SİLİYOR",
+  "notFoundingCameraText": "İkincil kamera bulunamadı",
+  "holdButtonText": "Kaydetmek için basılı tutun",
+  "noMediaFound": "Medya yok",
+  "acceptAllPermissionsText": "Tüm erişim izinlerini kabul edin.",
+  "addMessageText": "Mesaj Ekle",
+  "messageText": "Mesaj",
+  "editPictureText": "Fotoğrafı Düzenle",
+  "requiredFieldText": "Bu alan gereklidir",
+  "passwordLengthErrorText": "Şifre en az {count, plural, =1{{count} karakter} other{{count} karakter}} içermelidir",
+  "@passwordLengthErrorText": {
+    "placeholders": {
+      "characters": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "changeText": "Değiştir",
+  "changePhotoText": "Fotoğrafı Değiştir",
+  "fullNameEditDescription": "Hesabınızı keşfetmeleri için insanların sizi tanıdığı adı kullanın: tam adınız, takma adınız veya işletme adınız.\n\nAdınızı 14 gün içinde yalnızca iki kez değiştirebilirsiniz.",
+  "usernameEditDescription": "Kullanıcı adınızı 14 gün boyunca {username} olarak değiştirebileceksiniz.",
+  "@usernameEditDescription": {
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "emil"
+      }
+    }
+  },
+  "profileInfoEditConfirmationText": "{changeType} değişikliğini {newUsername} olarak değiştirmek istediğinizden emin misiniz?",
+  "@profileInfoEditConfirmationText": {
+    "placeholders": {
+      "newUsername": {
+        "type": "String",
+        "example": "jorge"
+      },
+      "changeType": {
+        "type": "String",
+        "example": "username"
+      }
+    }
+  },
+  "profileInfoChangePeriodText": "{count, plural, =1{gün} few{{count} gün} other{{count} gün}} içinde yalnızca iki kez {changeType} değiştirebilirsiniz.",
+  "@profileInfoChangePeriodText": {
+    "placeholders": {
+      "changeType": {
+        "type": "String",
+        "example": "username"
+      },
+      "count": {
+        "type": "int",
+        "example": "14"
+      }
+    }
+  },
+  "forgotPasswordText": "Şifrenizi mi unuttunuz?",
+  "recoveryPasswordText": "Şifre Kurtarma",
+  "orText": "Veya",
+  "signInWithText": "{provider} ile giriş yap",
+  "@signInWithText": {
+    "placeholders": {
+      "provider": {
+        "type": "String",
+        "example": "Google"
+      }
+    }
+  },
+  "goBackConfirmationText": "Geri dönmek istediğinizden emin misiniz?",
+  "goBackText": "Geri dön",
+  "furtherText": "İleri",
+  "noLastMessagesText": "Son mesaj yok",
+  "onlineText": "çevrimiçi",
+  "moreText": "Daha fazla",
+  "noAccountText": "Hesabınız yok mu?",
+  "alreadyHaveAccountText": "Zaten bir hesabınız var mı?",
+  "nameText": "Ad",
+  "usernameText": "Kullanıcı Adı",
+  "forgotPasswordEmailConfirmationText": "E-posta Doğrulama",
+  "verificationTokenSentText": "Doğrulama kodu {email} adresine gönderildi",
+  "@verificationTokenSentText": {
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "johndale@gmail.com"
+      }
+    }
+  },
+  "emailText": "E-posta",
+  "otpText": "Doğrulama Kodu",
+  "changePasswordText": "Şifreyi Değiştir",
+  "passwordText": "Şifre",
+  "newPasswordText": "Yeni Şifre",
+  "loginText": "Giriş Yap",
+  "signUpText": "Kayıt Ol",
+  "bioText": "Biyografi",
+  "postUnavailableText": "Gönderi mevcut değil",
+  "postUnavailableDescriptionText": "Bu gönderi mevcut değil",
+  "editedText": "düzenlendi",
+  "editText": "Düzenle",
+  "deleteText": "Sil",
+  "replyText": "Yanıtla",
+  "replyToText": "{username} yanıt olarak",
+  "@replyingToText": {
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "emil"
+      }
+    }
+  },
+  "themeText": "Tema",
+  "systemOption": "Sistem",
+  "@systemOption": {
+    "description": "Tema seçici menüsünde sistem genelinde tema seçeneği"
+  },
+  "lightModeOption": "Açık",
+  "@lightModeOption": {
+    "description": "Tema seçici menüsünde açık mod seçeneği"
+  },
+  "darkModeOption": "Karanlık",
+  "@darkModeOption": {
+    "description": "Tema seçici menüsünde karanlık mod seçeneği"
+  },
+  "languageText": "Dil",
+  "trOptionText": "Türkçe",
+  "enOptionText": "İngilizce",
+  "secondsAgo": "{seconds, plural, =1{{seconds} saniye önce} few{{seconds} saniye önce} other{{seconds} saniye önce}}",
+  "@secondsAgo": {
+    "description": "Saniye önce",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "minutesAgo": "{minutes, plural, =1{{minutes} dakika önce} few{{minutes} dakika önce} other{{minutes} dakika önce}}",
+  "@minutesAgo": {
+    "description": "Dakika önce",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "hoursAgo": "{hours, plural, =1{{hours} saat önce} few{{hours} saat önce} other{{hours} saat önce}}",
+  "@hoursAgo": {
+    "description": "Saat önce",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "daysAgo": "{days, plural, =1{{days} gün önce} few{{days} gün önce} other{{days} gün önce}}",
+  "@daysAgo": {
+    "description": "Gün önce",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "weeksAgo": "{weeks, plural, =1{{weeks} hafta önce} few{{weeks} hafta önce} other{{weeks} hafta önce}}",
+  "@weeksAgo": {
+    "description": "Hafta önce",
+    "placeholders": {
+      "weeks": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "monthsAgo": "{months, plural, =1{{months} ay önce} few{{months} ay önce} other{{months} ay önce}}",
+  "@monthsAgo": {
+    "description": "Ay önce",
+    "placeholders": {
+      "months": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "yearsAgo": "{years, plural, =1{{years} yıl önce} few{{years} yıl önce} other{{years} yıl önce}}",
+  "@yearsAgo": {
+    "description": "Yıl önce",
+    "placeholders": {
+      "years": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "networkError": "Bir ağ hatası oluştu.\nBağlantınızı kontrol edin ve tekrar deneyin.",
+  "@networkError": {
+    "description": "Bir ağ hatası oluştuğunda görüntülenen metin."
+  },
+  "networkErrorButton": "Tekrar Dene",
+  "@networkErrorButton": {
+    "description": "Bir ağ hatası oluştuğunda yeniden deneme düğmesinde görüntülenen metin."
+  }
+}
