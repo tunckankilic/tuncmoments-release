@@ -350,7 +350,7 @@
   "deleteText": "Sil",
   "replyText": "Yanıtla",
   "replyToText": "{username} yanıt olarak",
-  "@replyingToText": {
+  "@replyToText": {
     "placeholders": {
       "username": {
         "type": "String",

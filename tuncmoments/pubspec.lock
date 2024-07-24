@@ -374,14 +374,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
-  color:
-    dependency: transitive
-    description:
-      name: color
-      sha256: ddcdf1b3badd7008233f5acffaf20ca9f5dc2cd0172b75f68f24526a5f5725cb
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.0"
   convert:
     dependency: transitive
     description:
@@ -438,14 +430,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.6"
-  dartx:
-    dependency: transitive
-    description:
-      name: dartx
-      sha256: "8b25435617027257d43e6508b5fe061012880ddfdaa75a71d607c3de2a13d244"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.2.0"
   database_client:
     dependency: "direct main"
     description:
@@ -719,22 +703,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.3.2"
-  flutter_gen:
-    dependency: "direct main"
-    description:
-      name: flutter_gen
-      sha256: c310ae52c59010e71bcde62d9f3d81221e25b9c16f7f3adf9496dde8480866da
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.6.0"
-  flutter_gen_core:
-    dependency: transitive
-    description:
-      name: flutter_gen_core
-      sha256: d8e828ad015a8511624491b78ad8e3f86edb7993528b1613aefbb4ad95947795
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.6.0"
   flutter_hooks:
     dependency: transitive
     description:
@@ -2092,14 +2060,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.0"
-  time:
-    dependency: transitive
-    description:
-      name: time
-      sha256: ad8e018a6c9db36cb917a031853a1aae49467a93e0d464683e029537d848c221
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.4"
   timeago:
     dependency: "direct main"
     description:

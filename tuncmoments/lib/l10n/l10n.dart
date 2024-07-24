@@ -5,5 +5,5 @@ export 'package:flutter_gen/gen_l10n/app_localizations.dart';
 export 'package:tuncmoments/l10n/slang/translations.g.dart';
 
 extension AppLocalizationsX on BuildContext {
-  AppLocalizations get l10n => AppLocalizations.of(this)!;
+  AppLocalizations get l10n => AppLocalizations.of(this);
 }
