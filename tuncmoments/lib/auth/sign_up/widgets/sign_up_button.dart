@@ -23,15 +23,24 @@ class SignUpButton extends StatelessWidget {
     );
     final isLoading = context
         .select((SignUpCubit bloc) => bloc.state.submissionStatus.isLoading);
+
+    Future<void> onSubmitWithDelay() async {
+      // 2 saniye gecikme ekleyin
+      await Future.delayed(Duration(seconds: 2));
+      if (!context.mounted) return;
+      await context.read<SignUpCubit>().onSubmit(avatarFile: avatarFile);
+    }
+
     final child = switch (isLoading) {
       true => AppButton.inProgress(style: style, scale: 0.5),
       _ => AppButton.auth(
           context.l10n.signUpText,
-          () => context.read<SignUpCubit>().onSubmit(avatarFile: avatarFile),
+          onSubmitWithDelay,
           style: style,
           outlined: true,
         ),
     };
+
     return ConstrainedBox(
       constraints: BoxConstraints(
         minWidth: switch (context.screenWidth) {
