@@ -1,0 +1,495 @@
+{
+    // Olası öznitelikler hakkında bilgi edinmek için IntelliSense kullanın.
+    // Mevcut özniteliklerin açıklamalarını görüntülemek için üzerine gelin.
+    // Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tuncmoments",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tuncmoments (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "tuncmoments (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "api_repository",
+            "cwd": "packages/api_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app_ui",
+            "cwd": "packages/app_ui",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app_ui (profile mode)",
+            "cwd": "packages/app_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app_ui (release mode)",
+            "cwd": "packages/app_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "chats_repository",
+            "cwd": "packages/chats_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "chats_repository (profile mode)",
+            "cwd": "packages/chats_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "chats_repository (release mode)",
+            "cwd": "packages/chats_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "database_client",
+            "cwd": "packages/database_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "database_client (profile mode)",
+            "cwd": "packages/database_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "database_client (release mode)",
+            "cwd": "packages/database_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "env",
+            "cwd": "packages/env",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "env (profile mode)",
+            "cwd": "packages/env",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "env (release mode)",
+            "cwd": "packages/env",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "firebase_remote_config_repository",
+            "cwd": "packages/firebase_remote_config_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "firebase_remote_config_repository (profile mode)",
+            "cwd": "packages/firebase_remote_config_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "firebase_remote_config_repository (release mode)",
+            "cwd": "packages/firebase_remote_config_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "form_fields",
+            "cwd": "packages/form_fields",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "form_fields (profile mode)",
+            "cwd": "packages/form_fields",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "form_fields (release mode)",
+            "cwd": "packages/form_fields",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "gallery_media_picker",
+            "cwd": "packages/gallery_media_picker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gallery_media_picker (profile mode)",
+            "cwd": "packages/gallery_media_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "gallery_media_picker (release mode)",
+            "cwd": "packages/gallery_media_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "image_picker_plus",
+            "cwd": "packages/image_picker_plus",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "image_picker_plus (profile mode)",
+            "cwd": "packages/image_picker_plus",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "image_picker_plus (release mode)",
+            "cwd": "packages/image_picker_plus",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "insta_blocks",
+            "cwd": "packages/insta_blocks",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "insta_blocks (profile mode)",
+            "cwd": "packages/insta_blocks",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "insta_blocks (release mode)",
+            "cwd": "packages/insta_blocks",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "instagram_blocks_ui",
+            "cwd": "packages/instagram_blocks_ui",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "instagram_blocks_ui (profile mode)",
+            "cwd": "packages/instagram_blocks_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "instagram_blocks_ui (release mode)",
+            "cwd": "packages/instagram_blocks_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "notifications_repository",
+            "cwd": "packages/notifications_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "posts_repository",
+            "cwd": "packages/posts_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "posts_repository (profile mode)",
+            "cwd": "packages/posts_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "posts_repository (release mode)",
+            "cwd": "packages/posts_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "powersync_repository",
+            "cwd": "packages/powersync_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "powersync_repository (profile mode)",
+            "cwd": "packages/powersync_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "powersync_repository (release mode)",
+            "cwd": "packages/powersync_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "search_repository",
+            "cwd": "packages/search_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "search_repository (profile mode)",
+            "cwd": "packages/search_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "search_repository (release mode)",
+            "cwd": "packages/search_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "shared",
+            "cwd": "packages/shared",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "shared (profile mode)",
+            "cwd": "packages/shared",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "shared (release mode)",
+            "cwd": "packages/shared",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "stories_editor",
+            "cwd": "packages/stories_editor",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "stories_editor (profile mode)",
+            "cwd": "packages/stories_editor",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "stories_editor (release mode)",
+            "cwd": "packages/stories_editor",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "stories_repository",
+            "cwd": "packages/stories_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "stories_repository (profile mode)",
+            "cwd": "packages/stories_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "stories_repository (release mode)",
+            "cwd": "packages/stories_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "user_repository",
+            "cwd": "packages/user_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "user_repository (profile mode)",
+            "cwd": "packages/user_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "user_repository (release mode)",
+            "cwd": "packages/user_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "authentication_client",
+            "cwd": "packages/authentication_client/authentication_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "authentication_client (profile mode)",
+            "cwd": "packages/authentication_client/authentication_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "authentication_client (release mode)",
+            "cwd": "packages/authentication_client/authentication_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "supabase_authentication_client",
+            "cwd": "packages/authentication_client/supabase_authentication_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "supabase_authentication_client (profile mode)",
+            "cwd": "packages/authentication_client/supabase_authentication_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "supabase_authentication_client (release mode)",
+            "cwd": "packages/authentication_client/supabase_authentication_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "token_storage",
+            "cwd": "packages/authentication_client/token_storage",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "firebase_notifications_client",
+            "cwd": "packages/notifications_client/firebase_notifications_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "firebase_notifications_client (profile mode)",
+            "cwd": "packages/notifications_client/firebase_notifications_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "firebase_notifications_client (release mode)",
+            "cwd": "packages/notifications_client/firebase_notifications_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "notifications_client",
+            "cwd": "packages/notifications_client/notifications_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "persistent_storage",
+            "cwd": "packages/storage/persistent_storage",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "persistent_storage (profile mode)",
+            "cwd": "packages/storage/persistent_storage",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "persistent_storage (release mode)",
+            "cwd": "packages/storage/persistent_storage",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "secure_storage",
+            "cwd": "packages/storage/secure_storage",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "secure_storage (profile mode)",
+            "cwd": "packages/storage/secure_storage",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "secure_storage (release mode)",
+            "cwd": "packages/storage/secure_storage",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "storage",
+            "cwd": "packages/storage/storage",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
