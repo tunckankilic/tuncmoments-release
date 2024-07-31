@@ -8,7 +8,7 @@ import 'package:notifications_client/notifications_client.dart';
 /// {@endtemplate}
 class FirebaseNotificationsClient implements NotificationsClient {
   /// {@macro firebase_notifications_client}
-  FirebaseNotificationsClient({
+  const FirebaseNotificationsClient({
     required FirebaseMessaging firebaseMessaging,
   }) : _firebaseMessaging = firebaseMessaging;
 

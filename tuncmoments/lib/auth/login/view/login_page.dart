@@ -2,6 +2,7 @@ import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tuncmoments/auth/login/cubit/login_cubit.dart';
+import 'package:tuncmoments/auth/login/widgets/auth_provider_sign_in_button.dart';
 import 'package:tuncmoments/auth/login/widgets/login_form.dart';
 import 'package:tuncmoments/auth/login/widgets/sign_in_button.dart';
 import 'package:tuncmoments/auth/login/widgets/widgets.dart';
@@ -25,16 +26,16 @@ class LoginView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AppScaffold(
+    return AppScaffold(
       releaseFocus: true,
       resizeToAvoidBottomInset: true,
       body: AppConstrainedScrollView(
-        padding: EdgeInsets.symmetric(horizontal: AppSpacing.xlg),
+        padding: const EdgeInsets.symmetric(horizontal: AppSpacing.xlg),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Gap.v(AppSpacing.xxxlg + AppSpacing.xxxlg),
-            AppLogo(
+            const Gap.v(AppSpacing.xxxlg + AppSpacing.xxxlg),
+            const AppLogo(
               height: AppSpacing.xxxlg,
               fit: BoxFit.fitHeight,
               width: double.infinity,
@@ -43,8 +44,8 @@ class LoginView extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  LoginForm(),
-                  Padding(
+                  const LoginForm(),
+                  const Padding(
                     padding: EdgeInsets.only(
                       bottom: AppSpacing.md,
                       top: AppSpacing.xs,
@@ -54,31 +55,31 @@ class LoginView extends StatelessWidget {
                       child: ForgotPasswordButton(),
                     ),
                   ),
-                  Align(child: SignInButton()),
-                  Padding(
+                  const Align(child: SignInButton()),
+                  const Padding(
                     padding: EdgeInsets.symmetric(
                       vertical: AppSpacing.md,
                     ),
                     child: AppDivider(withText: true),
                   ),
-                  // Align(
-                  //   child: AuthProviderSignInButton(
-                  //     provider: AuthProvider.google,
-                  //     onPressed: () =>
-                  //         context.read<LoginCubit>().loginWithGoogle(),
-                  //   ),
-                  // ),
-                  // Align(
-                  //   child: AuthProviderSignInButton(
-                  //     provider: AuthProvider.github,
-                  //     onPressed: () =>
-                  //         context.read<LoginCubit>().loginWithGithub(),
-                  //   ),
-                  // ),
+                  Align(
+                    child: AuthProviderSignInButton(
+                      provider: AuthProvider.google,
+                      onPressed: () =>
+                          context.read<LoginCubit>().loginWithGoogle(),
+                    ),
+                  ),
+                  Align(
+                    child: AuthProviderSignInButton(
+                      provider: AuthProvider.github,
+                      onPressed: () =>
+                          context.read<LoginCubit>().loginWithGithub(),
+                    ),
+                  ),
                 ],
               ),
             ),
-            SignUpNewAccountButton(),
+            const SignUpNewAccountButton(),
           ],
         ),
       ),

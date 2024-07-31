@@ -2,15 +2,15 @@ import 'package:app_ui/app_ui.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:inview_notifier_list/inview_notifier_list.dart';
-import 'package:shared/shared.dart';
-import 'package:stories_repository/stories_repository.dart';
 import 'package:tuncmoments/feed/feed.dart';
 import 'package:tuncmoments/feed/post/post.dart';
 import 'package:tuncmoments/l10n/l10n.dart';
 import 'package:tuncmoments/network_error/network_error.dart';
 import 'package:tuncmoments/stories/stories.dart';
 import 'package:tuncmoments/user_profile/user_profile.dart';
+import 'package:inview_notifier_list/inview_notifier_list.dart';
+import 'package:shared/shared.dart';
+import 'package:stories_repository/stories_repository.dart';
 import 'package:user_repository/user_repository.dart';
 
 class FeedPage extends StatefulWidget {

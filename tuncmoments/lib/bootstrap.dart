@@ -7,13 +7,13 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_remote_config_repository/firebase_remote_config_repository.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
+import 'package:tuncmoments/app/app.dart';
+import 'package:tuncmoments/l10n/slang/translations.g.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:persistent_storage/persistent_storage.dart';
 import 'package:powersync_repository/powersync_repository.dart';
 import 'package:shared/shared.dart';
-import 'package:tuncmoments/app/app.dart';
-import 'package:tuncmoments/l10n/slang/translations.g.dart';
 
 typedef AppBuilder = FutureOr<Widget> Function(
   PowerSyncRepository,

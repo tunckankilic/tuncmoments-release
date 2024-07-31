@@ -1,10 +1,10 @@
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shared/shared.dart';
 import 'package:tuncmoments/feed/feed.dart';
 import 'package:tuncmoments/feed/post/post.dart';
 import 'package:tuncmoments/l10n/l10n.dart';
+import 'package:shared/shared.dart';
 
 class PostPreviewPage extends StatelessWidget {
   const PostPreviewPage({

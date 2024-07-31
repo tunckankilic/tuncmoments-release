@@ -1,10 +1,10 @@
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shared/shared.dart';
 import 'package:tuncmoments/app/app.dart';
 import 'package:tuncmoments/l10n/l10n.dart';
 import 'package:tuncmoments/selector/selector.dart';
+import 'package:shared/shared.dart';
 
 class AppView extends StatelessWidget {
   const AppView({super.key});

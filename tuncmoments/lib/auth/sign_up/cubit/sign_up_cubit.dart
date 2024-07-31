@@ -10,8 +10,6 @@ import 'package:user_repository/user_repository.dart';
 
 part 'sign_up_state.dart';
 
-enum SubmissionStatus { initial, inProgress, success, failure }
-
 /// {@template sign_up_cubit}
 /// Cubit for sign up state management. It is used to change signup state from
 /// initial to in progress, success or error. It also validates email, password,

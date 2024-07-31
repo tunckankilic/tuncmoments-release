@@ -2,12 +2,12 @@ import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart'
     hide NumDurationExtensions;
-import 'package:instagram_blocks_ui/instagram_blocks_ui.dart';
-import 'package:lottie/lottie.dart';
-import 'package:shared/shared.dart';
 import 'package:tuncmoments/feed/feed.dart';
 import 'package:tuncmoments/feed/widgets/feed_page_controller.dart';
 import 'package:tuncmoments/l10n/l10n.dart';
+import 'package:instagram_blocks_ui/instagram_blocks_ui.dart';
+import 'package:lottie/lottie.dart';
+import 'package:shared/shared.dart';
 
 class DividerBlock extends StatefulWidget {
   const DividerBlock({

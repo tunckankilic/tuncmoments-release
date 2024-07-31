@@ -5,13 +5,13 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tuncmoments/comments/view/comments_page.dart';
+import 'package:tuncmoments/feed/post/post.dart';
+import 'package:tuncmoments/l10n/l10n.dart';
 import 'package:go_router/go_router.dart';
 import 'package:instagram_blocks_ui/instagram_blocks_ui.dart';
 import 'package:posts_repository/posts_repository.dart';
 import 'package:shared/shared.dart' hide NumDurationExtension;
-import 'package:tuncmoments/comments/view/comments_page.dart';
-import 'package:tuncmoments/feed/post/post.dart';
-import 'package:tuncmoments/l10n/l10n.dart';
 import 'package:user_repository/user_repository.dart';
 
 typedef ListPositionDimension = ({

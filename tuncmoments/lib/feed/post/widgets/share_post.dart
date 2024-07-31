@@ -1,16 +1,16 @@
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tuncmoments/app/app.dart';
+import 'package:tuncmoments/feed/post/post.dart';
+import 'package:tuncmoments/l10n/l10n.dart';
+import 'package:tuncmoments/user_profile/user_profile.dart';
 import 'package:go_router/go_router.dart';
 import 'package:instagram_blocks_ui/instagram_blocks_ui.dart';
 import 'package:posts_repository/posts_repository.dart';
 import 'package:search_repository/search_repository.dart';
 import 'package:shared/shared.dart';
 import 'package:sliver_tools/sliver_tools.dart';
-import 'package:tuncmoments/app/app.dart';
-import 'package:tuncmoments/feed/post/post.dart';
-import 'package:tuncmoments/l10n/l10n.dart';
-import 'package:tuncmoments/user_profile/user_profile.dart';
 import 'package:user_repository/user_repository.dart';
 
 class SharePost extends StatelessWidget {

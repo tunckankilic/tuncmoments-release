@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tuncmoments/feed/post/post.dart';
 import 'package:instagram_blocks_ui/instagram_blocks_ui.dart';
 import 'package:shared/shared.dart' hide NumDurationExtension;
 import 'package:sprung/sprung.dart';
-import 'package:tuncmoments/feed/post/post.dart';
 
 class PostPopupDialog extends StatelessWidget {
   const PostPopupDialog({

@@ -2,11 +2,11 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tuncmoments/feed/feed.dart';
+import 'package:tuncmoments/feed/post/video/video.dart';
 import 'package:go_router/go_router.dart';
 import 'package:powersync_repository/powersync_repository.dart';
 import 'package:shared/shared.dart';
-import 'package:tuncmoments/feed/feed.dart';
-import 'package:tuncmoments/feed/post/video/video.dart';
 
 class FeedPageController extends ChangeNotifier {
   factory FeedPageController() => _internal;

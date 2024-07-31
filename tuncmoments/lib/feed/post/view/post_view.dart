@@ -1,10 +1,6 @@
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:go_router/go_router.dart';
-import 'package:instagram_blocks_ui/instagram_blocks_ui.dart' hide VideoPlayer;
-import 'package:posts_repository/posts_repository.dart';
-import 'package:shared/shared.dart';
 import 'package:tuncmoments/app/app.dart';
 import 'package:tuncmoments/comments/comments.dart';
 import 'package:tuncmoments/feed/feed.dart';
@@ -12,6 +8,10 @@ import 'package:tuncmoments/feed/post/post.dart';
 import 'package:tuncmoments/feed/post/video/video.dart';
 import 'package:tuncmoments/stories/stories.dart';
 import 'package:tuncmoments/user_profile/user_profile.dart';
+import 'package:go_router/go_router.dart';
+import 'package:instagram_blocks_ui/instagram_blocks_ui.dart' hide VideoPlayer;
+import 'package:posts_repository/posts_repository.dart';
+import 'package:shared/shared.dart';
 import 'package:user_repository/user_repository.dart';
 
 class PostView extends StatelessWidget {

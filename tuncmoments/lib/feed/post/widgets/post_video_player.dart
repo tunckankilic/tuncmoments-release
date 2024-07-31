@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:tuncmoments/feed/post/video/video.dart';
 import 'package:instagram_blocks_ui/instagram_blocks_ui.dart';
 import 'package:shared/shared.dart';
-import 'package:tuncmoments/feed/post/video/video.dart';
 
 class PostVideoPlayer extends StatelessWidget {
   const PostVideoPlayer({

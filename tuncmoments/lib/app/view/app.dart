@@ -3,13 +3,13 @@ import 'package:chats_repository/chats_repository.dart';
 import 'package:firebase_remote_config_repository/firebase_remote_config_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tuncmoments/app/app.dart';
+import 'package:tuncmoments/feed/feed.dart';
+import 'package:tuncmoments/selector/selector.dart';
 import 'package:notifications_repository/notifications_repository.dart';
 import 'package:posts_repository/posts_repository.dart';
 import 'package:search_repository/search_repository.dart';
 import 'package:stories_repository/stories_repository.dart';
-import 'package:tuncmoments/app/app.dart';
-import 'package:tuncmoments/feed/feed.dart';
-import 'package:tuncmoments/selector/selector.dart';
 import 'package:user_repository/user_repository.dart';
 
 /// Key to access the [AppSnackbarState] from the [BuildContext].
